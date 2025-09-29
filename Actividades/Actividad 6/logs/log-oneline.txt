@@ -1,0 +1,7 @@
+411a7ad Agrega ejemplo de cherry-pick
+d257c79 Corregir errores en la funcionaliad de rollback
+3d28a30 Agregar main.py y funcion greet para la actividad 6
+aad61f7 Agrega la actividad 3
+4e1c0a1 Agrega la actividad 2
+c44dfa2 feat: add activity 2
+3300605 first commit
