@@ -1,5 +1,5 @@
 print('Hello world-actualizado en main')
 def greet():
-	print('Hello como una funcion avanzada')
+	print('Soluciona el problema')
 greet()
 
