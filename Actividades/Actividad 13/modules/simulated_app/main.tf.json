@@ -1,0 +1,19 @@
+{
+  "resource": {
+    "null_resource": {
+      "local_server": {
+        "triggers": {
+          "network": "${var.network}",
+          "port": "${var.port}"
+        },
+        "provisioner": [
+          {
+            "local-exec": {
+              "command": "echo \"Comenzando red ${var.network} en el puerto ${var.port}\""
+            }
+          }
+        ]
+      }
+    }
+  }
+}

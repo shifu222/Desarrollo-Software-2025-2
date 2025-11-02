@@ -1,0 +1,19 @@
+{
+  "variable": {
+    "network": {
+      "type": "string",
+      "default": "lab-net",
+      "description": "Nombre de la red local"
+    },
+    "port": {
+      "type": "number",
+      "default": 8080,
+      "description": "Puerto en el servidor local"
+    },
+    "api_key": {
+      "type": "string",
+      "sensitive": true,
+      "description": "api key que se lee desde las variables de entorno "
+    }
+  }
+}

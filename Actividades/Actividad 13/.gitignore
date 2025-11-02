@@ -1,0 +1,8 @@
+# Ignorar estados y ficheros temporales
+environments/*/*.tfstate
+environments/*/*.tfstate.*
+*.pyc
+__pycache__/
+
+# Secrets (el secure.json recomendado está fuera del repo en ~/.config/)
+secure.json
